@@ -30,6 +30,7 @@ function tambahData() {
     };
 };
 
+
 function tambahBaris (data, row) {
     let table_data = document.createElement('td');
     let text_node = document.createTextNode(data);
