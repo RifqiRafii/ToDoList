@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <table class="table" border="1">
+            <tr>
+                <th>Kegiatan</th>
+                <th>Tanggal</th>
+                <th>Waktu</th>
+                <th>Aksi</th>
+            </tr>
+        </table>
+        <button type="button" onclick="bukaPop()">Tambah Data</button>
+    </div>
+
+    <div class="form-tambah">
+        <h1>Tambah Kegiatan</h1>
+        <label for="kegiatan">Nama Kegiatan</label><br>
+        <input type="text" name="kegiatan" id="kegiatan"><br>
+        <label for="tanggal">Tanggal Kegiatan</label><br>
+        <input type="date" name="tanggal" id="tanggal"><br>
+        <label for="waktu">Waktu Kegiatan</label><br>
+        <input type="time" name="waktu" id="waktu"><br>
+        <button type="button" onclick="tambahData()">Tambahkan</button>
+    </div>
+</body>
+</html>

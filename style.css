@@ -1,0 +1,20 @@
+.form-tambah {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    width: 300px;
+    z-index: 10;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.tombol-hapus {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
