@@ -10,11 +10,11 @@ body {
 }
 
 .container_blur {
-    filter:blur(4px);
-    -o-filter:blur(4px);
-    -ms-filter:blur(4px);
-    -moz-filter:blur(4px);
-    -webkit-filter:blur(4px);
+    filter:blur(10px);
+    -o-filter:blur(10px);
+    -ms-filter:blur(10px);
+    -moz-filter:blur(10px);
+    -webkit-filter:blur(10px);
 }
 
 .content {
@@ -71,13 +71,26 @@ td {
     display: none;
     position: fixed;
     top: 20%;
-    left: 39%;
+    left: 37.6%;
     width: 300px;
     z-index: 10;
-    padding: 20px;
+    padding: 10px;
     justify-items: center;
     align-items: center;
-    background-color: aqua;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
+    background-color: #183B4E;
+    border-radius: 25px;
+}
+
+.form-tambah h1 {
+    margin: 0;
+    color: whitesmoke;
+}
+
+.formcontent {
+    padding: 50px;
+    border-radius: 15px;
+    background-color: #F3F3E0;
 }
 
 .tombol-hapus {
