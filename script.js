@@ -3,7 +3,7 @@ function bukaPop(){
     let container = document.getElementsByClassName("container")[0];
 
     container.className = "container_blur";
-    form.style.display = "block";
+    form.style.display = "flex";
 }
 
 function tutupPop(){
