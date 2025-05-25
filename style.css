@@ -1,11 +1,80 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F3F3E0;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container_blur {
+    filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(4px);
+    -webkit-filter:blur(4px);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table {
+    background-color: #183B4E;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+td {
+    padding: 10px;
+}
+
+.table th{
+    color: white;
+    padding: 10px;
+}
+
+.table #table_header {
+    background-color: #183B4E;
+    border-radius: 50px;
+}
+
+.table tr {
+    background-color: whitesmoke;
+}
+
+.tambah {
+    border: none;
+    background-color: #27548A;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+.tambah:hover {
+    border: none;
+    background-color: #1e4069;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
 .form-tambah {
     display: none;
     position: fixed;
     top: 20%;
-    left: 35%;
+    left: 39%;
     width: 300px;
     z-index: 10;
-    padding: 10px;
+    padding: 20px;
     justify-items: center;
     align-items: center;
     background-color: aqua;
@@ -13,6 +82,14 @@
 
 .tombol-hapus {
     background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.tombol-hapus:hover {
+    background-color: rgb(196, 0, 0);
     color: white;
     padding: 10px;
     border: none;

@@ -1,10 +1,16 @@
 function bukaPop(){
     let form = document.getElementsByClassName("form-tambah")[0];
+    let container = document.getElementsByClassName("container")[0];
+
+    container.className = "container_blur";
     form.style.display = "block";
 }
 
 function tutupPop(){
     let form = document.getElementsByClassName("form-tambah")[0];
+    let container = document.getElementsByClassName("container_blur")[0];
+
+    container.className = "container";
     form.style.display = "none";
 }
 
