@@ -48,3 +48,5 @@ function hapusData(button){
     let baris = button.parentNode.parentNode
     baris.parentNode.removeChild(baris)
 }
+
+//I hope this is Final
